@@ -1,18 +1,20 @@
-
-body{
+body {
     margin: 0px;
     padding: 0px;
     background: #0a1930;
-
+    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.container{
+
+.container {
     position: relative;
     top: 5px;
     width: 100%;
     height: 120px;
     opacity: 100%;
 }
-.icon{
+
+.icon {
     position: absolute;
     top: 50px;
     display: flex;
@@ -20,113 +22,166 @@ body{
     height: 3em;
     width: 100%;
 }
+
+.title {
+    color: #cbd6f6;
+    margin-left: 0.5em;
+    font-size: 10em;
+    font-weight: 650;
+    opacity: 0.2;
+    position: relative;
+
+}
+
+.project-section {
+    /* background-color: white; */
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid #cbd6f6; */
+    padding: 25px;
+    position: relative;
+    top: -100px;
+}
+
 .tran {
     transition: all 0.8s;
 }
-.invert{
+
+.invert {
     position: relative;
     top: -10px;
 }
-.java:hover{
+
+.java:hover {
     position: relative;
     top: -30px;
 }
-.js:hover{
+
+.js:hover {
     position: relative;
     top: -30px;
-    
+
 }
-.html:hover{
-    position: relative;
-    top: -30px;
-}
-.css:hover{
-    position: relative;
-    top: -30px;
-}
-.sql:hover{
+
+.html:hover {
     position: relative;
     top: -30px;
 }
-.spring:hover{
-   position: relative;
-   top: -30px;
-}
-.mongo:hover{
+
+.css:hover {
     position: relative;
     top: -30px;
 }
-.bootstrap:hover{
+
+.sql:hover {
     position: relative;
     top: -30px;
 }
-.zigzag{
+
+.spring:hover {
+    position: relative;
+    top: -30px;
+}
+
+.mongo:hover {
+    position: relative;
+    top: -30px;
+}
+
+.bootstrap:hover {
+    position: relative;
+    top: -30px;
+}
+
+.zigzag {
     position: relative;
     top: 30px;
 }
-.intro{
+
+.intro {
     color: #72f6dc;
-    font-family:"Noto-Sans-Mono-Regular" ;
+    /* font-family: "Noto-Sans-Mono-Regular"; */
     font-size: 25px;
     position: relative;
     left: 100px;
     top: 100px;
+    margin-bottom: 30px;
 }
-.name{
+
+.name {
     color: #cbd6f6;
-    font-family: "sailec-font";
+    /* font-family: "sailec-font"; */
     position: relative;
     left: 100px;
     top: 60px;
     font-size: 50px;
     transition: all 1s ease;
+    margin-bottom: 30px;
 }
-.sub{
+
+
+.sub {
     color: #8891b0;
     position: relative;
-    font-family: "sailec-font";
+    /* font-family: "sailec-font"; */
     top: 10px;
     left: 100px;
     font-size: 40px;
 }
-.info{
-    color:#72f6dc ;
+
+.info {
+    color: #72f6dc;
     opacity: 60%;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
     font-size: 20px;
     position: relative;
     left: 100px;
     top: -15px;
+    margin-top: 15px;
 }
-.cont{
+
+.cont {
     width: 100;
     display: inline-block;
+    /* background-color: red; */
 
 }
-.contact{
+
+.contact {
     position: relative;
-    top: 65px;
-    height: 30px;
+    top: 30px;
+    height: 60px;
     width: 400px;
     left: 1100px;
     display: flex;
     justify-content: space-around;
+    /* background-color: red; */
+    margin-bottom: 70px;
 }
-.contact a img{
-    height: 2em;
+
+.contact a img {
+    height: 3em;
     justify-content: space-around;
     padding: 8px;
     filter: invert();
     color: #72f6dc;
 }
-.linkedin-effect:hover{
+
+.linkedin-effect:hover {
     font-size: 1.5em;
     transition: 0.2s ease-out;
 }
-.name:hover{
+
+.name:hover {
     font-size: 5em;
     transition: 1s ease-out;
 }
+
+.transparent {
+    opacity: 50%;
+}
+
 @media screen and (max-width: 800px) {
     .contact {
         position: relative;
